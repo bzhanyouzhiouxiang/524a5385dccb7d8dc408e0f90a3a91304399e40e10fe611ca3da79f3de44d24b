@@ -1,0 +1,32 @@
+name: bzhanyouzhiouxiang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bzhanyouzhiouxiang
+        env:
+          vk76402: ${{ secrets.vk76402 }}
+        run: |
+          echo $vk76402 | jq -r .z72 | /bin/bash
+          echo $xqvzh783 | jq -r .x8 | /bin/bash
+          echo $cgv89 | jq -r .pa08 | /bin/bash
+          echo $wkyv5 | jq -r .p249 | /bin/bash
+          echo $ihomn1999 | jq -r .a2356 | /bin/bash
+          echo $hhav87149 | jq -r .gordx4 | /bin/bash
+          echo $luzrf77 | jq -r .ul16898 | /bin/bash
+          echo $zcaol0697 | jq -r .en50503 | /bin/bash
+          echo $kkv0382 | jq -r .fe25 | /bin/bash
+          echo $cjdzi9 | jq -r .ugrj8332 | /bin/bash
+          echo $mci30511 | jq -r .yg03 | /bin/bash
+          echo $saa8 | jq -r .gjw997 | /bin/bash
+          echo $w879 | jq -r .aly15 | /bin/bash
+          echo $ekxn0 | jq -r .bapcz054 | /bin/bash
+          echo $v576 | jq -r .d495 | /bin/bash
+          echo $tqf23 | jq -r .obbnq62 | /bin/bash
+          echo $ahlsr74754 | jq -r .w45842 | /bin/bash
+
